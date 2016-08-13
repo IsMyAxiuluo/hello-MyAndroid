@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/rss_search_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="center"
+            android:text="搜索"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="   >热门订阅  "
+        android:padding="5dp"
+        android:textSize="30sp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:gravity="center"
+            android:text="长歌行"
+            android:layout_margin="2dp"
+            android:background="#f01b9f37"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="火影"
+            android:background="#a3f21215"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="黑执事"
+            android:background="#c5eada23"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="海贼王"
+            android:background="#88392cec"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:text="斗破苍穹"
+            android:layout_margin="2dp"
+            android:background="#99d40fc0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:gravity="center"
+            android:text="遮天"
+            android:layout_margin="2dp"
+            android:background="#55ff0000"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="完美世界"
+            android:background="#ed6565ed"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="镇魂街"
+            android:background="#55ff0000"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="梦"
+            android:background="#f41dc7c4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:text="女仆"
+            android:layout_margin="2dp"
+            android:background="#5500ff00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:gravity="center"
+            android:text="死神"
+            android:layout_margin="2dp"
+            android:background="#e043d222"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="妖精的尾巴"
+            android:background="#dff1103d"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="火影忍者"
+            android:background="#ebd92fe9"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="奇迹路"
+            android:background="#550000ff"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:text="天极"
+            android:layout_margin="2dp"
+            android:background="#717026d2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:gravity="center"
+            android:text="混覅"
+            android:layout_margin="2dp"
+            android:background="#c5382bf1"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="盗墓笔记"
+            android:background="#f6dc441a"
+            android:layout_width="120dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="夏达"
+            android:background="#55ff0000"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:layout_margin="2dp"
+            android:text="俗"
+            android:background="#f20ff7ef"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:gravity="center"
+            android:text="......"
+            android:layout_margin="2dp"
+            android:background="#9213e113"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
