@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_gravity="left|center"
+                android:onClick="ShowMenu"
+                android:src="@drawable/setting_head_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:id="@+id/left_c_bg"
+                android:layout_gravity="center|right"
+                android:src="@drawable/share_bg_text"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/left_c_tv"
+                android:text="热点"
+                android:layout_marginRight="30dp"
+                android:textSize="20sp"
+                android:layout_gravity="right|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/right_c_bg"
+                android:layout_gravity="center|left"
+                android:src="@drawable/share_bg_text"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/right_c_tv"
+                android:layout_marginLeft="30dp"
+                android:text="订阅"
+                android:textSize="20sp"
+                android:layout_gravity="left|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:background="@drawable/message_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/concern_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

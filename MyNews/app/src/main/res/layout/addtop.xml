@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <org.luozetian.mynews.View.MyViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </org.luozetian.mynews.View.MyViewPager>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:scrollbarThumbHorizontal="@drawable/scrollbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy" />
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy1" />
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy10" />
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy11" />
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy2" />
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy3" />
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy4" />
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy5" />
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy6" />
+
+
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy7" />
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy8" />
+            <ImageView
+                android:onClick="Search"
+                android:layout_marginLeft="9dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lolmy9" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>
